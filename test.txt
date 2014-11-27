@@ -1,0 +1,3 @@
+This is a new txt file...
+
+This is the second line
