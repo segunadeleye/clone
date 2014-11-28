@@ -4,3 +4,12 @@
 	echo $this->Html->link("Good", "controller" => "users", "action" => "view", $document["Document"]["id"]);
 
 ?>
+
+<?php ?>
+
+<script>
+	$("faqs a").click(function(){
+		var faqId = $(this).attr("href");
+		$("body").animate({scrollTop: $(faqId).offset().top}, "slow");
+	});
+</script> 
